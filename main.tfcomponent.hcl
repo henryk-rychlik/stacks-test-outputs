@@ -4,6 +4,7 @@ required_providers {
     version = "~> 3.7.2"
   }
 }
+
 provider "random" "this" {}
 component "pet" {
   source = "./pet"
