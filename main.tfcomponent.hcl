@@ -14,7 +14,8 @@ component "pet" {
 output "pet_name" {
   description = "The pet names"
   type        = list(string) 
-  value       = component.pet.random_pet_kind 
+  value       = component.pet.random_pet_kind
+  sensitive = true
 }
 # This mimics a resource output
 output "aks_cluster_data" {
