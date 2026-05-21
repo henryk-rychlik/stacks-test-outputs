@@ -1,6 +1,6 @@
 deployment "simple" {
 }
-publish_output "simple_pet" {
+publish_output "pet_name" {
   description = "The generated pet name for the simple deployment."
   value       = deployment.simple.pet_name
 }
