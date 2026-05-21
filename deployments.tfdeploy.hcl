@@ -12,3 +12,7 @@ publish_output "simple_pet2" {
   description = "The generated pet name for the simple deployment."
   value       = deployment.simple.pet_name
 }
+publish_output "simple_pet3" {
+  description = "The generated pet name for the simple deployment."
+  value       = deployment.simple.pet_name
+}
