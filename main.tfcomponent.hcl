@@ -15,7 +15,8 @@ component "pet" {
 output "pet_name" {
   description = "The pet names"
   type        = list(string) 
-  value       = component.pet.random_pet_kind
+#  value       = component.pet.random_pet_kind
+  value       = null
   sensitive = true
 }
 # This mimics a resource output
